@@ -1,0 +1,117 @@
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menus {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 8%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.box-card {
+    /* margin-top: -1%; */
+    display: block;
+}
+
+.sidebox {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#profile {
+    width: 100%;
+    height: 100%;
+    margin-top: 4%;
+    border-radius: 25%;
+    padding-top: 12%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 12%;
+}
+
+#__name {
+    padding-left: 12%;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    color: #3E4149;
+}
+
+#weight-name {
+    font-weight: 500;
+}
+
+.job {
+    background-color: #e9edf0;
+    color: #44566c;
+    text-align: center;
+    border-radius: 10rem;
+    margin-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-block;
+    margin-bottom: 5%;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.social {
+    text-align: center;
+    color: grey;
+}
+
+#socmed {
+    padding-right: 3%;
+}
+
+.button-animated {
+    text-align: center;
+}
+
+#content-items {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    margin-left: 4%;
+    color: #3E4149;
+}
+
+#bio-icon {
+    padding-right: 5%;
+}
+
+#cv {
+    margin-top: 12%;
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    border-radius: 5rem;
+    margin-bottom: 12%;
+}
+
+.title-card {
+    color: #3E4149;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.paragraph {
+    font-family: 'Lora';
+    font-size: 20px;
+}
+
+.paragraph p {
+    font-weight: 550;
+    margin-right: 10%;
+}
+
+#doing-row {
+    margin-right: 3rem;
+}
