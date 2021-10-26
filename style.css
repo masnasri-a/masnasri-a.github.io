@@ -114,4 +114,20 @@ body {
 
 #doing-row {
     margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+#im-doing {
+    border-radius: 2rem;
+}
+
+#title-doing {
+    margin-top: 1rem;
+    color: #3E4149;
+    font-weight: 600;
+}
+
+#text-doing {
+    color: #3E4149;
+    font-size: medium;
 }
