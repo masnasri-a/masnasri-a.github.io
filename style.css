@@ -10,11 +10,13 @@ body {
     margin-top: 8%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .box-card {
     /* margin-top: -1%; */
     display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sidebox {
@@ -130,4 +132,17 @@ body {
 #text-doing {
     color: #3E4149;
     font-size: medium;
+}
+
+.scroll {
+    max-height: 45rem;
+    overflow-y: auto;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+#footer {
+    color: #3E4149;
 }
