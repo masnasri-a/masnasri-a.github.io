@@ -1842,7 +1842,13 @@ h3 {
 .footer .copy-right_text .socail_links ul li a {
     color: #a8a7a0;
     margin: 0 10px;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.socail_links ul li a i {
+    color: #a8a7a0;
+    margin: 0 10px;
+    font-size: 22px;
 }
 
 .footer .copy-right_text .socail_links ul li a:hover {
